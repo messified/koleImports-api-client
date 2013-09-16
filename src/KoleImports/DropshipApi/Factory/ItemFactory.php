@@ -26,6 +26,6 @@ class ItemFactory
         $item = $this->getItem();
 
         return $item->setSku($sku)
-                          ->setQuantity($quantity);
+                    ->setQuantity($quantity);
     }
 }
