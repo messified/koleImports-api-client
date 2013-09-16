@@ -113,7 +113,7 @@ class Address
 
     public function getaddress1()
     {
-        return $this->address_1;
+        return $this->address1;
     }
 
     public function setaddress1($address1)
@@ -171,12 +171,12 @@ class Address
         return $this;
     }
 
-    public function getExtZipCode()
+    public function getExtZipcode()
     {
-        return $this->extZipCode;
+        return $this->extZipcode;
     }
 
-    public function setExtZipCode($extZipcode)
+    public function setExtZipcode($extZipcode)
     {
         $this->extZipcode = (string) $extZipcode;
 
